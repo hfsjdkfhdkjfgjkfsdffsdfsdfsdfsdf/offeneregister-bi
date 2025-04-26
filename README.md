@@ -19,3 +19,16 @@ python src/transform_data.py \
       --chunk 50000
 
 # 3) open report/dashboard.pbix in Power BI Desktop (Windows) and click 'Refresh'
+# 1) Clone the repository (if not already done)
+git clone https://github.com/hfsjdkfhdkjfgjkfsdffsdfsdfsdfsdf/offeneregister-bi.git
+cd offeneregister-bi
+
+# 2) Pull the large PBIX file via Git LFS
+git lfs pull
+
+# 3) Open the dashboard
+# Windows only:
+start report/dashboard.pbix
+
+# macOS/Linux:
+# Open it in a Windows virtual machine with Power BI Desktop installed
